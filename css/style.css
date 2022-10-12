@@ -215,5 +215,138 @@ background-color: #0A0A0A;
   padding: 50px 0;
 }
 
+.politics{
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(247, 247, 247);
+  padding: 0 500px;
+  margin: 0px;  
+}
+.politics p{
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  max-width: 1200px;
+  line-height: 26px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px; 
+}
+
+
+@media (max-width:1200px) {
+  .headline-img,
+  .images-new{
+    max-width: 100%;
+  }
+  .contacts-inner{
+    display: block;
+  }
+  .contacts-form{
+    width: auto;
+  }
+  .contacts-title{
+    text-align: center;
+  }
+  .contacts-img{
+    width: 100%;
+    padding: 0px;
+
+  }
+  .contacts{
+    background-color: #574B63;
+  }
+
+  .phone{
+    margin-left: 0px;
+  }
+  .footer-link{
+    margin-right: 0px;
+  }
+}
+
+@media (max-width:1100px) {
+.color-list{
+  flex-wrap: wrap;
+}
+.color-item{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width:940px) {
+
+  .images-new {
+    display: none;
+  }
+  .new-text p,
+  .new-text b{
+    max-width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+
+  .headline,
+  .new
+  {
+    padding:50px 0;
+
+  }
+
+  .color{
+    padding-bottom: 50px;
+  }
+  .contacts-form{
+    padding: 50px 70px;
+  }
+
+}
+
+@media (max-width:640px){
+  .footer-inner{
+flex-direction: column;
+  }
+  .logo{
+    margin:10px 0 10px;
+  }
+}
+
+
+@media (max-width:560px) {
+  .title {
+  margin: 0 0 30px;
+  font-size: 38px;
+  line-height: 30px;
+  }
+    .headline-btn {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 65px 10px 65px;
+  }
+  .new-title,
+  .color-title,
+  .contacts-title{
+    font-size: 25px;
+    line-height: 29px;
+  }
+    .color-item,
+    .color-item img {
+      width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+  .title {
+    margin: 0 0 20px;
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .headline-btn {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 10px 60px 10px 60px;
+  }
+}
 
 
